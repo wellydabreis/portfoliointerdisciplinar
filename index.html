@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Portfólio Interdisciplinar</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form action="exibir-dados.php" class="formulario" method="post"> 
+        <p>Digite abaixo seu usuário e senha</p>
+        
+        <div class="field">
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuário" required>
+        </div>
+        
+        <div class="field">
+            <label for="senha">Senha</label>
+            <input type="text" id="senha" name="senha" placeholder="Digite sua senha">
+        </div>
+        <input type="submit" name="acao" value="Enviar"><br>
+        <input type="reset" value="Cancelar" class="submit">
+    </form>
+</body>
+</html>
